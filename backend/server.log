@@ -1,0 +1,7 @@
+
+> chatbot-backend@1.0.0 start
+> node server.js
+
+[dotenv@17.0.0] injecting env (2) from .env – 🔐 encrypt with dotenvx: https://dotenvx.com
+DEBUG: API Key loaded? YES
+🚀 Server running on port 3001

@@ -1,0 +1,40 @@
+# Environment variables
+.env
+.env.local
+.env.production
+.env.development
+backend/.env
+frontend/.env.local
+
+# API keys and secrets
+*.key
+*.pem
+
+# OS files
+.DS_Store
+
+# Build outputs
+.next/
+out/
+.swc/
+
+# Dependencies
+node_modules/
+
+# Environment files
+.env*
+!.env.example
+
+# Add to backend/.gitignore
+echo "
+# Build outputs
+dist/
+build/
+
+# Dependencies
+node_modules/
+
+# Environment files
+.env*
+!.env.example
+" >> backend/.gitignore
